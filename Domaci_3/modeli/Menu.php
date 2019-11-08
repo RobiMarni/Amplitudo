@@ -15,19 +15,24 @@ class Menu implements Renderable
 
    public function Niz() 
     { 
-       $links = [ ['label' => 'page_one',  'page_name' => 'page_1.php', 'param' => 
-                  ['id' => 1, 'name' => 'Marko', 'lastname' => 'Markovic' ]],
+       $links = [ 
+                  ['label' => 'page_one',  
+                  'page_name' => 'page_1.php', 
+                  'param' => ['id' => 1, 
+                  'name' => 'Marko', 
+                  'lastname' => 'Markovic' ]],
 
-                  ['label' => 'page_two',    'page_name' => 'page_2.php', 'param' => 
-                  ['id' => 2, 'name' => 'Janko',    'lastname' => 'Jankovic' ]] 
+                  ['label' => 'page_two',    'page_name' => 'page_2.php', 
+                  'param'  => ['id' => 2, 'name' => 'Janko',    'lastname' => 'Jankovic' ]] 
+/*
+                  ['label' => 'homepage',
+                  'page_name' => 'homepage.php', 
+                  'param' => ['id' => 3, 'name' => 'Petar',    'lastname' => 'Petrovic' ]] 
+       */];
+    return $links;
 
-                  ['label' => 'homepage',    'page_name' => 'homepage.php', 'param' => 
-                  ['id' => 3, 'name' => 'Petar',    'lastname' => 'Petrovic' ]] 
-    ];
-return $links
-    }       
-/*Deklarisati prazni konstruktor koji inicijalizuje niz “$items” sa dostupnim stavkama
-(homepage, page_1 i page_2).*/
+}   
+
 
     public function __construct()
     {
