@@ -4,6 +4,7 @@ use Domaci3\Renderable;
 use Domaci3\MenuItem;
 use Domaci3\Menu;
 ?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -20,6 +21,7 @@ use Domaci3\Menu;
     <h1>Homepage</h1>
 </body>
 </html>
+
 <?php
     $menu_3 = new Menu();
     $menu_3->render();

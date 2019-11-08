@@ -23,12 +23,12 @@ class Menu implements Renderable
                   'lastname' => 'Markovic' ]],
 
                   ['label' => 'page_two',    'page_name' => 'page_2.php', 
-                  'param'  => ['id' => 2, 'name' => 'Janko',    'lastname' => 'Jankovic' ]] 
-/*
+                  'param'  => ['id' => 2, 'name' => 'Janko',    'lastname' => 'Jankovic' ]],
+
                   ['label' => 'homepage',
                   'page_name' => 'homepage.php', 
                   'param' => ['id' => 3, 'name' => 'Petar',    'lastname' => 'Petrovic' ]] 
-       */];
+       ];
     return $links;
 
 }   
