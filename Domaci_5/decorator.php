@@ -1,11 +1,6 @@
 <?php
 
 
-// Problem
-// You want to add behavior or state to individual objects at run-time. 
-// Inheritance is not feasible because it is static and applies to an entire class.
-
-
 class Book {
     private $author;
     private $title;

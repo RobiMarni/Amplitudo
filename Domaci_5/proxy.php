@@ -2,7 +2,6 @@
 
 class ProxyBookList {
     private $bookList = NULL; 
-    //bookList is not instantiated at construct time
     function __construct() {
     }
     function getBookCount() {
